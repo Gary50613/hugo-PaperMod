@@ -65,3 +65,12 @@ div.highlight:hover .copy-code,
 pre:hover .copy-code {
     display: block;
 }
+
+.promote {
+    text-align: center;
+    font-size: x-small;
+}
+
+.promote > span {
+    opacity: .75;
+}
