@@ -69,8 +69,10 @@ pre:hover .copy-code {
 .promote {
     text-align: center;
     font-size: x-small;
+    margin-bottom: 1.5rem;
 }
 
 .promote > span {
     opacity: .75;
+    line-height: 2.0;
 }
