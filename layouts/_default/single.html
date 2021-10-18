@@ -35,6 +35,7 @@
   {{- end }}
 
   <footer class="post-footer">
+    {{ partial "adsense.html" . }}
     {{- if .Params.tags }}
     <ul class="post-tags">
       {{- range ($.GetTerms "tags") }}
